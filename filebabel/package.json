@@ -1,0 +1,26 @@
+{
+  "name": "filebabel",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "buildes5": "rmdir /s /q distes5 && npx babel dist --out-dir distes5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "vite": "^5.3.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "axios": "^1.7.3",
+    "element-plus": "^2.7.8",
+    "pinia": "^2.2.1",
+    "stylus": "^0.63.0",
+    "vue": "^3.4.36"
+  }
+}
